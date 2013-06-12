@@ -4,7 +4,7 @@
 /*#83c030 green
 #5f6062 grey*/
 body {font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 62.5%; background: #f6f6f6;}
-h1, h2, h3, h4, h5, h6 {color: #83c030; font-weight: lighter;}
+h1, h2, h3, h4, h5, h6 {color: #83c030; font-weight: lighter; font-family: 'Source Sans Pro', sans-serif;}
 h1 {line-height: 1.5em; font-size: 1.9em;}
 h2 {line-height: 1.5em; font-size: 1.7em; color: black;}
 h3 {line-height: 1.5em; font-size: 1.7em;}
