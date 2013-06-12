@@ -80,3 +80,5 @@ button.greybutton {
 #page {background: #fff; border: 0px 1px solid #eaeaea;}
 #region-footer-first {background:#29292b;}
 #region-footer-second {background:#1b1b1d;}
+
+.grey_block {color: #5f6062; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; }
