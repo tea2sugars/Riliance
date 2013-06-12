@@ -43,3 +43,35 @@ button.greenbutton {
 		0px 0px 0px rgba(255,255,255,0);
 }
 
+button.greybutton {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #ffffff;
+	padding: 10px 20px;
+	background: -moz-linear-gradient(
+		top,
+		#515557 0%,
+		#3c3b3c 50%,
+		#3c3b3c);
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#515557),
+		color-stop(0.50, #3c3b3c),
+		to(#3c3b3c));
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px solid #000000;
+	-moz-box-shadow:
+		0px 2px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 0px rgba(255,255,255,0.7);
+	-webkit-box-shadow:
+		0px 2px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 0px rgba(255,255,255,0.7);
+	box-shadow:
+		0px 2px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 0px rgba(255,255,255,0.7);
+	text-shadow:
+		0px 0px 0px rgba(000,000,000,0),
+		0px 0px 0px rgba(255,255,255,0);
+}
