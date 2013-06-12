@@ -10,7 +10,7 @@ h2 {line-height: 1.5em; font-size: 1.7em; color: black;}
 h3 {line-height: 1.5em; font-size: 1.7em;}
 p, li, td, {color: black; letter-spacing: 1px; line-height: 1.5em; font-size: 1.3em;}
 .terms {color:#fff; font-size:1em; text-align: center; margin:5px 0;}
-#navigation a:link {color: #fff;}
+#navigation a:link {color: #fff; font-size: 1.4em;}
 
 button.greenbutton {
 	font-size: 14px;
