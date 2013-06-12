@@ -1,2 +1,45 @@
 /* This file will hold styles for the mobile version of your website (mobile first). */
 /* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
+
+/*#83c030 green
+#5f6062 grey*/
+body {font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 62.5%;}
+h1, h2, h3, h4, h5, h6 {color: #83c030; font-weight: lighter;}
+h1 {line-height: 1.5em; font-size: 1.9em;}
+h2 {line-height: 1.5em; font-size: 1.7em; color: black;}
+h3 {line-height: 1.5em; font-size: 1.7em;}
+
+p, li, td, {color: black; letter-spacing: 1px; line-height: 1.5em; font-size: 1.3em;}
+
+button.greenbutton {
+	font-size: 14px;
+	color: #ffffff;
+	padding: 10px 20px;
+	background: -moz-linear-gradient(
+		top,
+		#6ab12f 0%,
+		#60a12a 50%,
+		#60a12a);
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#6ab12f),
+		color-stop(0.50, #60a12a),
+		to(#60a12a));
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px solid #60a12a;
+	-moz-box-shadow:
+		0px 2px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 0px rgba(255,255,255,0.7);
+	-webkit-box-shadow:
+		0px 2px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 0px rgba(255,255,255,0.7);
+	box-shadow:
+		0px 2px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 0px rgba(255,255,255,0.7);
+	text-shadow:
+		0px 0px 0px rgba(000,000,000,0),
+		0px 0px 0px rgba(255,255,255,0);
+}
+
