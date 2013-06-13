@@ -9,8 +9,11 @@ h1 {line-height: 1.2; font-size: 2.4em; letter-spacing: 1px;}
 h2 {line-height: 1.2; font-size: 1.8em; color: black; letter-spacing: 1px;}
 h3 {line-height: 1.2; font-size: 1.8em;}
 p, li, td {color: black; line-height: 1.6em; font-size: 1.4em;}
+footer p, footer h3, footer a:link, footer a:visited {color:white; text-decoration: none;}
+footer p {margin-bottom: 5px; font-size: 1.2em; line-height: 1.2;}
 .terms {color:#fff; font-size:1em; text-align: center; margin:5px 0;}
 .header_phone {color:#929292; font-size:2.2em; font-weight: 200; letter-spacing: 1px;}
+
 #block-block-3 a:link, #block-block-3 a:visited {color:#929292; font-size:1.4em; font-weight: 300; text-decoration: none; letter-spacing: 1px;}
 #block-block-3 a:hover {text-decoration: underline;}
 
@@ -110,7 +113,7 @@ button.greybutton {
 
 #zone-menu-wrapper {margin: 20px 0;}
 
-.grey_block {background: #5f6062; color:white; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; }
+.grey_block {background: #333; color:white; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; }
 
 /*Blocks*/
 #block-block-2 {float:right; width:400px; text-align: right;}
@@ -119,3 +122,4 @@ button.greybutton {
 .branding-data {float: left; width: 370px;}
 .logo-img {padding:0; margin:10px 0 0 0;}
 
+#region-footer-first {background: #333; color:white;}
