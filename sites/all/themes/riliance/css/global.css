@@ -10,12 +10,16 @@ h2 {line-height: 1.2; font-size: 1.8em; color: black; letter-spacing: 1px;}
 h3 {line-height: 1.2; font-size: 1.8em;}
 p, li, td {color: black; line-height: 1.6em; font-size: 1.4em;}
 .terms {color:#fff; font-size:1em; text-align: center; margin:5px 0;}
+
+header {padding-top:10px;}
 #navigation a:link {color: #fff; font-size: 1.4em;}
 
 button.greenbutton {
-	font-size: 14px;
+	font-size: 1em;
+	font-weight: 300; 
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	color: #ffffff;
-	padding: 10px 20px;
+	padding: 5px 20px;
 	background: -moz-linear-gradient(
 		top,
 		#6ab12f 0%,
@@ -46,10 +50,11 @@ button.greenbutton {
 }
 
 button.greybutton {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 14px;
+	font-weight: 300; 
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;	
+	font-size: 1em;
 	color: #ffffff;
-	padding: 10px 20px;
+	padding: 5px 20px;
 	background: -moz-linear-gradient(
 		top,
 		#515557 0%,
@@ -80,20 +85,25 @@ button.greybutton {
 
 }
 
+.navigation {background: -moz-linear-gradient(
+		top,
+		#515557 0%,
+		#3c3b3c 50%,
+		#3c3b3c);
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#515557),
+		color-stop(0.50, #3c3b3c),
+		to(#3c3b3c));
+		}
+
+.navigation a:link, .navigation a:visited {color: white; padding:15px 30px; display: block; float:left; text-decoration: none;}
+.navigation a:hover, .navigation a.active {background: black;} 
+.navigation li.last a:link, .navigation li.last a:visited {color:#83c030;}
+
 
 #page {background: #fff; border: 0px 1px solid #eaeaea;}
 #region-footer-first {background:#29292b;}
 #region-footer-second {background:#1b1b1d;}
 
 .grey_block {color: #5f6062; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; }
-#navigation {background: -moz-linear-gradient(
-		top,
-		#6ab12f 0%,
-		#60a12a 50%,
-		#60a12a);
-	background: -webkit-gradient(
-		linear, left top, left bottom, 
-		from(#6ab12f),
-		color-stop(0.50, #60a12a),
-		to(#60a12a));
-}
