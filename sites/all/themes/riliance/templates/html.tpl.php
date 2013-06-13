@@ -4,9 +4,10 @@
   <?php print $head; ?>
   <title><?php print $head_title; ?></title>  
   <?php print $styles; ?>
-  <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200' rel='stylesheet' type='text/css'>
   <?php print $scripts; ?>
   <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200' rel='stylesheet' type='text/css'>
+
 </head>
 <body<?php print $attributes;?>>
   <div id="skip-link">
