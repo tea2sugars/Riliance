@@ -14,7 +14,7 @@ p, li, td {color: black; line-height: 1.6em; font-size: 1.4em;}
 #block-block-3 a:link, #block-block-3 a:visited {color:#929292; font-size:1.4em; font-weight: 300; text-decoration: none; letter-spacing: 1px;}
 #block-block-3 a:hover {text-decoration: underline;}
 
-header {padding-top:10px;}
+header {padding-top:20px;}
 #navigation a:link {color: #fff; font-size: 1.4em;}
 
 button.greenbutton {font-weight: 300; 
@@ -113,6 +113,7 @@ button.greybutton {
 .grey_block {color: #5f6062; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; }
 
 /*Blocks*/
+#block-block-2 {float:right; width:400px; text-align: right;}
 #block-block-3 {float:left; width:380px; border-left: 2px solid #83c030; padding:30px 0 30px 20px;}
 #block-block-3 p {margin: 0;}
 .branding-data {float: left; width: 370px;}
