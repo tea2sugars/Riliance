@@ -13,6 +13,12 @@ footer p, footer h3, footer a:link, footer a:visited {color:white; text-decorati
 footer p {margin-bottom: 5px; font-size: 1.2em; line-height: 1.2;}
 .terms {color:#fff; font-size:1em; text-align: center; margin:5px 0;}
 .header_phone {color:#929292; font-size:2.2em; font-weight: 200; letter-spacing: 1px;}
+::selection {
+	background: #D9FFE0; /* Safari */
+	}
+::-moz-selection {
+	background: #D9FFE0; /* Firefox */
+}
 
 #block-block-3 a:link, #block-block-3 a:visited {color:#929292; font-size:1.4em; font-weight: 300; text-decoration: none; letter-spacing: 1px;}
 #block-block-3 a:hover {text-decoration: underline;}
