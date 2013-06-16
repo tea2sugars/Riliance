@@ -8,7 +8,7 @@ h1, h2, h3, h4, h5, h6 {color: #83c030; font-weight: 300; font-family: 'Helvetic
 h1 {line-height: 1.2; font-size: 2.4em; letter-spacing: 1px;}
 h2 {line-height: 1.2; font-size: 1.8em; color: black; letter-spacing: 1px;}
 h3 {line-height: 1.2; font-size: 1.8em;}
-p, li, td {color: black; line-height: 1.6em; font-size: 1.4em;}
+p, li, td, label {color: black; line-height: 1.6em; font-size: 1.4em;}
 footer p, footer h3, footer a:link, footer a:visited {color:white; text-decoration: none;}
 footer p {margin-bottom: 5px; font-size: 1.2em; line-height: 1.2;}
 .terms {color:#fff; font-size:1em; text-align: center; margin:5px 0;}
@@ -16,11 +16,14 @@ footer p {margin-bottom: 5px; font-size: 1.2em; line-height: 1.2;}
 
 #block-block-3 a:link, #block-block-3 a:visited {color:#929292; font-size:1.4em; font-weight: 300; text-decoration: none; letter-spacing: 1px;}
 #block-block-3 a:hover {text-decoration: underline;}
+#block-block-4, #block-block-5, #block-block-6, #block-block-7 {width:160px; margin:10px 0 10px 10px; float: left; padding-top:15px;}
+#block-block-4 {padding-top: 0;}
+#block-block-4 h4 {margin:0; color: white;}
 
 header {padding-top:20px;}
 #navigation a:link {color: #fff; font-size: 1.4em;}
 
-button.greenbutton {font-weight: 300; 
+button.greenbutton, input[type="submit"] {font-weight: 300; 
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;	
 	font-size: 1em;
 	color: #ffffff;
@@ -97,6 +100,7 @@ background: #3c3b3c\9;/* IE8 and below */
 
 
 #page {background: #fff; border: 0px 1px solid #eaeaea;}
+#zone-content {padding:40px 0;}
 #region-footer-first {background:#29292b;}
 #region-footer-second {background:#1b1b1d;}
 
@@ -112,3 +116,12 @@ background: #3c3b3c\9;/* IE8 and below */
 .logo-img {padding:0; margin:10px 0 0 0;}
 
 #region-footer-first {background: #333; color:white;}
+#region-postscript-first {background: url(../images/dot_texture.gif) top #888888;}
+
+#block-webform-client-block-4 {background: #5f6062; padding:20px; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px;}
+#block-webform-client-block-4 p, #block-webform-client-block-4 label {color: #fff;}
+#region-sidebar-first input {width: 100%; border: none; -moz-border-radius: 2px; -webkit-border-radius: 2px; border-radius: 2px;}
+#region-sidebar-first label {font-size: 1.1em;}
+#region-sidebar-first input[type="submit"] {font-size: 1.4em; width:150px; margin:10px 0 0 0;}
+
+#node-webform-4 header {display: none;}
