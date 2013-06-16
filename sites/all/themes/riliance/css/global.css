@@ -25,16 +25,6 @@ button.greenbutton {font-weight: 300;
 	font-size: 1em;
 	color: #ffffff;
 	padding: 5px 20px;
-	background: -moz-linear-gradient(
-		top,
-		#3EBB29 0%,
-		#3AAD24 50%,
-		#3AAD24);
-	background: -webkit-gradient(
-		linear, left top, left bottom, 
-		from(#3EBB29),
-		color-stop(0.50, #3AAD24),
-		to(#3AAD24));
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
@@ -51,7 +41,17 @@ button.greenbutton {font-weight: 300;
 	text-shadow:
 		0px 0px 0px rgba(000,000,000,0),
 		0px 0px 0px rgba(255,255,255,0);
-	margin:0 5px;}
+	margin:0 5px;
+	background: #3ebb29; /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzNlYmIyOSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9Ijk5JSIgc3RvcC1jb2xvcj0iIzNhYWQyNCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+	background: -moz-linear-gradient(top,  #3ebb29 0%, #3aad24 99%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3ebb29), color-stop(99%,#3aad24)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #3ebb29 0%,#3aad24 99%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #3ebb29 0%,#3aad24 99%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #3ebb29 0%,#3aad24 99%); /* IE10+ */
+	background: linear-gradient(to bottom,  #3ebb29 0%,#3aad24 99%); /* W3C */
+	background: #3ebb29\9;}
 
 button.greybutton {
 	font-weight: 300; 
@@ -59,16 +59,6 @@ button.greybutton {
 	font-size: 1em;
 	color: #ffffff;
 	padding: 5px 20px;
-	background: -moz-linear-gradient(
-		top,
-		#515557 0%,
-		#3c3b3c 50%,
-		#3c3b3c);
-	background: -webkit-gradient(
-		linear, left top, left bottom, 
-		from(#515557),
-		color-stop(0.50, #3c3b3c),
-		to(#3c3b3c));
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
@@ -89,7 +79,7 @@ button.greybutton {
 
 }
 
-#region-menu {background: #555555; /* Old browsers */
+#region-menu, button.greybutton  {background: #3c3b3c; /* Old browsers */
 /* IE9 SVG, needs conditional override of 'filter' to 'none' */
 background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzU1NTU1NSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMzYzNiM2MiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
 background: -moz-linear-gradient(top,  #555555 0%, #3c3b3c 100%); /* FF3.6+ */
