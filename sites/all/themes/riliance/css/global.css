@@ -100,11 +100,11 @@ background: #3c3b3c\9;/* IE8 and below */
 
 
 #page {background: #fff; border: 0px 1px solid #eaeaea;}
-#zone-content {padding:40px 0;}
+#zone-content {padding:20px 0 40px 0;}
 #region-footer-first {background:#29292b;}
 #region-footer-second {background:#1b1b1d;}
 
-#zone-menu-wrapper {margin: 20px 0;}
+#zone-menu {margin-top:20px;}
 
 .grey_block {background: #333; color:white; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; }
 
