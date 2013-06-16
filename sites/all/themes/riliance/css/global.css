@@ -115,11 +115,11 @@ background: #3c3b3c\9;/* IE8 and below */
 .branding-data {float: left; width: 370px;}
 .logo-img {padding:0; margin:10px 0 0 0;}
 
-#region-footer-first {background: #333; color:white;}
+#region-footer-first {background: #5f6062; color:white;}
 #region-postscript-first {background: url(../images/dot_texture.gif) top #888888;}
 
 /*Aside Homepage Form*/
-#block-webform-client-block-4 {background: #333; padding:20px; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px;}
+#block-webform-client-block-4 {background: #5f6062; padding:20px; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px;}
 #block-webform-client-block-4 p, #block-webform-client-block-4 label {color: #fff;}
 #region-sidebar-first input {width: 100%; border: none; -moz-border-radius: 2px; -webkit-border-radius: 2px; border-radius: 2px;}
 #region-sidebar-first label {font-size: 1.1em;}
