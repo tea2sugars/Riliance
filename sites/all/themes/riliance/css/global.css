@@ -125,9 +125,12 @@ background: #3c3b3c\9;/* IE8 and below */
 #region-footer-first {background: #5f6062; color:white;}
 #region-postscript-first {background: url(../images/dot_texture.gif) top #888888;}
 
+/*Aside*/
+#region-sidebar-first {background: #5f6062; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px;}
+#region-sidebar-first .region-inner {padding:20px;}
+#region-sidebar-first p, #region-sidebar-first h2, #region-sidebar-first label {color: #fff;}
 /*Aside Homepage Form*/
-#block-webform-client-block-4 {background: #5f6062; padding:20px; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px;}
-#block-webform-client-block-4 p, #block-webform-client-block-4 label {color: #fff;}
+
 #region-sidebar-first input {width: 100%; border: none; -moz-border-radius: 2px; -webkit-border-radius: 2px; border-radius: 2px;}
 #region-sidebar-first label {font-size: 12px;}
 #region-sidebar-first input[type="submit"] {font-size: 12px; width:150px; margin:10px 0 0 0;}
@@ -135,4 +138,6 @@ background: #3c3b3c\9;/* IE8 and below */
 #node-webform-4 header {display: none;}
 
 /*Who uses Riliance view*/
-.view-who-uses-riliance .views-row {margin:0; width:360px;}
+#region-content .view-who-uses-riliance .views-row {margin:0; width:360px;}
+#region-content .view-who-uses-riliance .views-field-field-logo {float:left; width:100px; margin:0 10px 0 0;}
+#region-content .view-who-uses-riliance h3, #region-content .view-who-uses-riliance h6, #region-content blockquote {width:250px; float:right;}
