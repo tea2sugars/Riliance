@@ -3,16 +3,17 @@
 
 /*#83c030 green
 #5f6062 grey*/
-body {font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 62.5%; background: #f6f6f6;}
+body {font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; background: #f6f6f6;}
 h1, h2, h3, h4, h5, h6 {color: #83c030; font-weight: 300; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;}
-h1 {line-height: 1.2; font-size: 2.4em; letter-spacing: 1px;}
-h2 {line-height: 1.2; font-size: 1.8em; color: black; letter-spacing: 1px;}
-h3 {line-height: 1.2; font-size: 1.8em;}
-p, li, td, label {color: black; line-height: 1.6em; font-size: 1.4em;}
+h1 {line-height: 1.2; font-size: 24px; letter-spacing: 1px;}
+h2 {line-height: 1.2; font-size: 18px; color: black; letter-spacing: 1px;}
+h3 {line-height: 1.2; font-size: 16px; color: black; letter-spacing: 1px; font-style: italic; font-weight: 600; margin:0;}
+h6 {color:black; font-size:12px;}
+p, li, td, label {color: black; line-height: 1.4; font-size: 12px;}
 footer p, footer h3, footer a:link, footer a:visited {color:white; text-decoration: none;}
-footer p {margin-bottom: 5px; font-size: 1.2em; line-height: 1.2;}
+footer p {margin-bottom: 5px; font-size: 12px; line-height: 1.2;}
 .terms {color:#fff; font-size:1em; text-align: center; margin:5px 0;}
-.header_phone {color:#929292; font-size:2.2em; font-weight: 200; letter-spacing: 1px;}
+.header_phone {color:#929292; font-size:22px; font-weight: 200; letter-spacing: 1px;}
 ::selection {
 	background: #D9FFE0; /* Safari */
 	}
@@ -20,7 +21,7 @@ footer p {margin-bottom: 5px; font-size: 1.2em; line-height: 1.2;}
 	background: #D9FFE0; /* Firefox */
 }
 
-#block-block-3 a:link, #block-block-3 a:visited {color:#929292; font-size:1.4em; font-weight: 300; text-decoration: none; letter-spacing: 1px;}
+#block-block-3 a:link, #block-block-3 a:visited {color:#929292; font-size:14px; font-weight: 300; text-decoration: none; letter-spacing: 1px;}
 #block-block-3 a:hover {text-decoration: underline;}
 #block-block-4, #block-block-5, #block-block-6, #block-block-7 {width:160px; margin:10px 0 10px 10px; float: left; padding-top:15px;}
 #block-block-4 {padding-top: 0;}
@@ -128,7 +129,10 @@ background: #3c3b3c\9;/* IE8 and below */
 #block-webform-client-block-4 {background: #5f6062; padding:20px; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px;}
 #block-webform-client-block-4 p, #block-webform-client-block-4 label {color: #fff;}
 #region-sidebar-first input {width: 100%; border: none; -moz-border-radius: 2px; -webkit-border-radius: 2px; border-radius: 2px;}
-#region-sidebar-first label {font-size: 1.1em;}
-#region-sidebar-first input[type="submit"] {font-size: 1.4em; width:150px; margin:10px 0 0 0;}
+#region-sidebar-first label {font-size: 12px;}
+#region-sidebar-first input[type="submit"] {font-size: 12px; width:150px; margin:10px 0 0 0;}
 
 #node-webform-4 header {display: none;}
+
+/*Who uses Riliance view*/
+.view-who-uses-riliance .views-row {margin:0; width:360px;}
