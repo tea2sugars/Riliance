@@ -102,7 +102,7 @@ background: #3c3b3c\9;/* IE8 and below */
 
 .navigation a:link, .navigation a:visited {color: white; padding:15px 30px; display: block; float:left; text-decoration: none;}
 .navigation a:hover, .navigation a.active {background: black;} 
-.navigation li.last a:link, .navigation li.last a:visited {color:#83c030;}
+.navigation li.last a:link, .navigation li.last a:visited {color:#D9FFE0;}
 
 
 #page {background: #fff; border: 0px 1px solid #eaeaea;}
