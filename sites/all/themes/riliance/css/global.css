@@ -39,7 +39,7 @@ footer p {margin-bottom: 5px; font-size: 12px; line-height: 1.2;}
 /*Navigation*/
 .navigation a:link, .navigation a:visited {color: white; padding:15px 30px; display: block; float:left; font-size:14px; text-decoration: none;}
 .navigation a:hover, .navigation a.active {background: black;} 
-.navigation li.last a:link, .navigation li.last a:visited {color:#D9FFE0;}
+.navigation li.last a:link, .navigation li.last a:visited {color:#3ebb29;}
 #zone-menu {margin-top:20px;}
 
 /*Blocks*/
