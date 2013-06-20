@@ -10,7 +10,7 @@ h2 {line-height: 1.2; font-size: 18px; color: black; letter-spacing: 1px;}
 h3 {line-height: 1.2; font-size: 16px; color: black; letter-spacing: 1px; font-style: italic; font-weight: 600; margin:0;}
 
 /*Features H3*/
-.page-node-12 h3 {font-style: normal; width:270px; float:right; height:50px; margin:10px 0 0 0;}
+.page-node-12 h3 {font-style: normal; width:260px; float:right; height:50px; margin:10px 0 0 0;}
 .page-node-12 h3:after {clear:both;}
 /*End of Features*/
 
@@ -82,7 +82,7 @@ footer p {margin-bottom: 5px; font-size: 12px; line-height: 1.2;}
 .view-homepage-features .item-list ul li .views-field-field-icon {width:120px; margin:0 auto 20px auto;}
 
 /*Features Block*/
-.view-features .item-list ul li {width:340px; float:left; margin:0 0 20px 0; border: 1px solid #83c030; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; padding:5px; height:140px;}
+.view-features .item-list ul li {width:330px; float:left; margin:0 0 20px 0; border: 1px solid #83c030; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; padding:10px; height:140px;}
 .view-features .item-list ul li.views-row-odd {margin-right:20px;}
 .view-features .views-field-field-icon {width:60px; float:left; margin-right: 5px;}
 
