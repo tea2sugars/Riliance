@@ -130,6 +130,8 @@ button.greenbutton, input[type="submit"] {font-weight: 300;
 	background: -ms-linear-gradient(top,  #3ebb29 0%,#3aad24 99%); /* IE10+ */
 	background: linear-gradient(to bottom,  #3ebb29 0%,#3aad24 99%); /* W3C */
 	background: #3ebb29\9;}
+	
+button.greenbutton:hover, input[type="submit"]:hover {background:#3ebb29;}
 
 button.greybutton {
 	font-weight: 300; 
@@ -156,6 +158,8 @@ button.greybutton {
 	margin:0 5px;
 
 }
+
+button.greybutton:hover {background: #3c3b3c;}
 
 #region-menu, button.greybutton  {background: #3c3b3c; /* Old browsers */
 /* IE9 SVG, needs conditional override of 'filter' to 'none' */
