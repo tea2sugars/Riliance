@@ -8,6 +8,12 @@ h1, h2, h3, h4, h5, h6 {color: #83c030; font-weight: 300; font-family: 'Helvetic
 h1 {line-height: 1.2; font-size: 24px; letter-spacing: 1px;}
 h2 {line-height: 1.2; font-size: 18px; color: black; letter-spacing: 1px;}
 h3 {line-height: 1.2; font-size: 16px; color: black; letter-spacing: 1px; font-style: italic; font-weight: 600; margin:0;}
+
+/*Features H3*/
+.page-node-12 h3 {font-style: normal; width:270px; float:right; height:60px;}
+.page-node-12 h3:after {clear:both;}
+/*End of Features*/
+
 h4 {font-size: 16px; margin-bottom: 5px;}
 h6 {color:black; font-size:12px;}
 p, li, td, label {color: black; line-height: 1.4; font-size: 12px;}
@@ -78,11 +84,13 @@ footer p {margin-bottom: 5px; font-size: 12px; line-height: 1.2;}
 /*Features Block*/
 .view-features .item-list ul li {width:340px; float:left; margin:0 0 20px 0; border: 1px solid #83c030; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; padding:5px;}
 .view-features .item-list ul li.views-row-odd {margin-right:20px;}
+.view-features .views-field-field-icon {width:60px; float:left; margin-right: 5px;}
 
 /*Who uses Riliance page view*/
 #region-content .view-who-uses-riliance .views-row {margin:0; width:360px;}
 #region-content .view-who-uses-riliance .views-field-field-logo {float:left; width:100px; margin:0 10px 0 0;}
 #region-content .view-who-uses-riliance h3, #region-content .view-who-uses-riliance h6, #region-content blockquote {width:250px; float:right;}
+
 
 /*Who uses Riliance page block*/
 #region-sidebar-first .views-field-title {font-weight: 500; font-style: italic; color: white;}
