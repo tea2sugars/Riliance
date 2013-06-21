@@ -9,6 +9,7 @@ h1 {line-height: 1.2; font-size: 24px; letter-spacing: 1px;}
 h2 {line-height: 1.2; font-size: 18px; color: black; letter-spacing: 1px;}
 h3 {line-height: 1.2; font-size: 16px; color: black; letter-spacing: 1px; font-style: italic; font-weight: 600; margin:0;}
 .marker, .form-required {color: #000;}
+aside .marker, aside .form-required {color:#fff;}
 
 /*Features H3*/
 .page-node-12 h3 {font-style: normal; width:260px; float:right; height:50px; margin:10px 0 0 0;}
