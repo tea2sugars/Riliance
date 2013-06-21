@@ -8,6 +8,7 @@ h1, h2, h3, h4, h5, h6 {color: #83c030; font-weight: 300; font-family: 'Helvetic
 h1 {line-height: 1.2; font-size: 24px; letter-spacing: 1px;}
 h2 {line-height: 1.2; font-size: 18px; color: black; letter-spacing: 1px;}
 h3 {line-height: 1.2; font-size: 16px; color: black; letter-spacing: 1px; font-style: italic; font-weight: 600; margin:0;}
+.marker, .form-required {color: #000;}
 
 /*Features H3*/
 .page-node-12 h3 {font-style: normal; width:260px; float:right; height:50px; margin:10px 0 0 0;}
@@ -43,6 +44,9 @@ footer p {margin-bottom: 5px; font-size: 12px; line-height: 1.2;}
 #block-block-4, #block-block-5, #block-block-6, #block-block-7 {width:160px; margin:10px 0 10px 10px; float: left; padding-top:15px;}
 #block-block-4 {padding-top: 0;}
 #block-block-4 h4 {margin:0; color: white;}
+#block-block-8, #block-views-contact-block {width:120px; float:right;}
+#block-block-8 p {margin:0;}
+#block-views-contact-block {margin-top:5px;}
 
 /*Navigation*/
 .navigation a:link, .navigation a:visited {color: white; padding:15px 30px; display: block; float:left; font-size:14px; text-decoration: none;}
@@ -99,7 +103,9 @@ footer p {margin-bottom: 5px; font-size: 12px; line-height: 1.2;}
 #region-sidebar-first blockquote {margin:0 0 0 20px;}
 
 /*buttons*/
-button.greenbutton, input[type="submit"] {font-weight: 300; 
+button.greenbutton, a.greenbutton:link, a.greenbutton:visited, .greenbutton a:link, .greenbutton a:visited, input[type="submit"] {
+text-decoration: none;
+font-weight: 300; 
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;	
 	font-size: 1em;
 	color: #ffffff;
@@ -132,14 +138,14 @@ button.greenbutton, input[type="submit"] {font-weight: 300;
 	background: linear-gradient(to bottom,  #3ebb29 0%,#3aad24 99%); /* W3C */
 	background: #3ebb29\9;}
 	
-button.greenbutton:hover, input[type="submit"]:hover {background:#3ebb29;}
+button.greenbutton:hover, a.greenbutton:hover, .greenbutton a:hover, input[type="submit"]:hover {background:#3ebb29;}
 
-button.greybutton {
+button.greybutton, a.greybutton:link, a.greybutton:visited {
 	font-weight: 300; 
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;	
 	font-size: 1em;
 	color: #ffffff;
-	padding: 5px 20px;
+	padding: 7px 20px;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
@@ -160,7 +166,7 @@ button.greybutton {
 
 }
 
-button.greybutton:hover {background: #3c3b3c;}
+button.greybutton:hover, a.greybutton:hover {background: #3c3b3c;}
 
 #region-menu, button.greybutton  {background: #3c3b3c; /* Old browsers */
 /* IE9 SVG, needs conditional override of 'filter' to 'none' */
@@ -173,6 +179,10 @@ background: -ms-linear-gradient(top,  #555555 0%,#3c3b3c 100%); /* IE10+ */
 background: linear-gradient(to bottom,  #555555 0%,#3c3b3c 100%); /* W3C */
 background: #3c3b3c\9;/* IE8 and below */
 		}
+		
+/*Colorbox*/
+#cboxContent h2 {display: none;}
+#cboxContent #webform-component-opt-in {margin-top:0px;}
 		
 
 
