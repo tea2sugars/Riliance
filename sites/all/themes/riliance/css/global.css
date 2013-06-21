@@ -184,6 +184,14 @@ background: #3c3b3c\9;/* IE8 and below */
 /*Colorbox*/
 #cboxContent h2 {display: none;}
 #cboxContent #webform-component-opt-in {margin-top:0px;}
+
+/*Blog*/
+.view-blog h2 {font-size: 16px; margin:0 0 5px 0;}
+.view-blog h2 a:link, .view-blog h2 a:visited {color: black; text-decoration: none;}
+.view-blog h2 a:hover {text-decoration: underline;}
+.view-blog li.views-row  {margin:0 0 10px 0;}
+.view-blog .views-field-field-image {width:220px; float:left; margin:0 10px 0 0;}
+.view-blog .views-field-title, .view-blog .views-field-body {width:500px; float:right;}
 		
 
 
