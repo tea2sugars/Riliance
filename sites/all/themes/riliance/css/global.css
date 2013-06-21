@@ -17,6 +17,7 @@ h3 {line-height: 1.2; font-size: 16px; color: black; letter-spacing: 1px; font-s
 h4 {font-size: 16px; margin-bottom: 5px;}
 h6 {color:black; font-size:12px;}
 p, li, td, label {color: black; line-height: 1.4; font-size: 12px;}
+.sml_text {font-size: 10px;}
 
 ::selection {background: #D9FFE0; /* Safari */}
 ::-moz-selection {background: #D9FFE0; /* Firefox */}
@@ -172,5 +173,6 @@ background: -ms-linear-gradient(top,  #555555 0%,#3c3b3c 100%); /* IE10+ */
 background: linear-gradient(to bottom,  #555555 0%,#3c3b3c 100%); /* W3C */
 background: #3c3b3c\9;/* IE8 and below */
 		}
+		
 
 
