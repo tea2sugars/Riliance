@@ -34,15 +34,21 @@ header {padding-top:20px;}
 
 /*footer*/
 footer p, footer h3, footer a:link, footer a:visited {color:white; text-decoration: none;}
-footer p {margin-bottom: 5px; font-size: 12px; line-height: 1.2;}
-.terms {color:#fff; font-size:1em; text-align: center; margin:5px 0;}
+footer p {margin-bottom: 5px; font-size: 11px; line-height: 1.6;}
+.terms {color:#cbcbcb; font-size:11px; text-align: center; margin:10px 0;}
+footer #block-block-9 {width:323px; float:right; margin:10px 20px 10px 10px;}
 #region-footer-first {background:#29292b;}
 #region-footer-second {background:#1b1b1d;}
 #block-block-3 a:link, #block-block-3 a:visited {color:#929292; font-size:14px; font-weight: 300; text-decoration: none; letter-spacing: 1px;}
 #block-block-3 a:hover {text-decoration: underline;}
 #block-block-3 {float:left; width:380px; border-left: 2px solid #83c030; padding:30px 0 30px 20px;}
 #block-block-3 p {margin: 0;}
-#block-block-4, #block-block-5, #block-block-6, #block-block-7 {width:160px; margin:10px 0 10px 10px; float: left; padding-top:15px;}
+#block-block-4, #block-block-5, #block-block-6, #block-block-7, #block-block-10, #block-block-11 {width:110px; margin:10px 0 10px 20px; float: left; padding-top:15px;}
+#block-block-5, #block-block-6, #block-block-7, #block-block-10, #block-block-11 {padding-top:25px;}
+#block-block-5 {width:60px;}
+#block-block-7, #block-block-10, #block-block-11 {width:120px;}
+#block-block-11 {width:130px;}
+
 #block-block-4 {padding-top: 0;}
 #block-block-4 h4 {margin:0; color: white;}
 #block-block-8, #block-views-contact-block {width:120px; float:right;}
