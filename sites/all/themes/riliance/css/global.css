@@ -96,7 +96,9 @@ footer #block-block-9 {width:323px; float:right; margin:10px 20px 10px 10px;}
 /*Features Block*/
 .view-features .item-list ul li {width:330px; float:left; margin:0 0 20px 0; border: 1px solid #83c030; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; padding:10px; height:140px;}
 .view-features .item-list ul li.views-row-odd {margin-right:20px;}
-.view-features .views-field-field-icon {width:60px; float:left; margin-right: 5px;}
+.view-features .views-field-field-icon {width:60px; float:left; margin:0 5px 5px 0;}
+.view-features .views-field-field-icon:after {clear: both;}
+.view-features .views-field-body {min-height:80px; float:left;}
 
 /*Who uses Riliance page view*/
 #region-content .view-who-uses-riliance .views-row {margin:0; width:360px; float:left; height:300px;}
@@ -108,7 +110,9 @@ footer #block-block-9 {width:323px; float:right; margin:10px 20px 10px 10px;}
 /*Who uses Riliance page block*/
 #region-sidebar-first .views-field-title {font-weight: 500; font-style: italic; color: white;}
 #region-sidebar-first .view-footer p {text-align: right; margin:10px 0;}
-#region-sidebar-first blockquote {margin:0 0 0 20px;}
+#region-sidebar-first blockquote {margin:0;}
+#region-sidebar-first blockquote p {font-family: times; font-style: italic; font-size: 16px;}
+
 
 /*buttons*/
 button.greenbutton, a.greenbutton:link, a.greenbutton:visited, .greenbutton a:link, .greenbutton a:visited, input[type="submit"] {
