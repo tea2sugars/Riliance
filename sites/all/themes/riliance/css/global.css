@@ -99,7 +99,8 @@ footer #block-block-9 {width:323px; float:right; margin:10px 20px 10px 10px;}
 .view-features .views-field-field-icon {width:60px; float:left; margin-right: 5px;}
 
 /*Who uses Riliance page view*/
-#region-content .view-who-uses-riliance .views-row {margin:0; width:360px;}
+#region-content .view-who-uses-riliance .views-row {margin:0; width:360px; float:left; height:300px;}
+#region-content .view-who-uses-riliance .views-row-even {margin-left:20px;}
 #region-content .view-who-uses-riliance .views-field-field-logo {float:left; width:100px; margin:0 10px 0 0;}
 #region-content .view-who-uses-riliance h3, #region-content .view-who-uses-riliance h6, #region-content blockquote {width:250px; float:right;}
 
