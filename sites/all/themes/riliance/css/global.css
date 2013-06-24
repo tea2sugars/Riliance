@@ -21,6 +21,9 @@ h6 {color:black; font-size:12px;}
 p, li, td, label {color: black; line-height: 1.4; font-size: 12px;}
 .sml_text {font-size: 10px;}
 
+a:link, a:visited {color:#83c030; text-decoration: none;}
+a:hover {text-decoration: none;}
+
 ::selection {background: #D9FFE0; /* Safari */}
 ::-moz-selection {background: #D9FFE0; /* Firefox */}
 
@@ -51,9 +54,9 @@ footer #block-block-9 {width:323px; float:right; margin:10px 20px 10px 10px;}
 
 #block-block-4 {padding-top: 0;}
 #block-block-4 h4 {margin:0; color: white;}
-#block-block-8, #block-views-contact-block {width:120px; float:right;}
+#block-block-8, #block-views-contact-blocks-block {width:120px; float:right;}
 #block-block-8 p {margin:0;}
-#block-views-contact-block {margin-top:5px;}
+#block-views-contact-blocks-block {margin-top:5px;}
 
 /*Navigation*/
 .navigation a:link, .navigation a:visited {color: white; padding:15px 30px; display: block; float:left; font-size:14px; text-decoration: none;}
@@ -175,6 +178,16 @@ button.greybutton, a.greybutton:link, a.greybutton:visited {
 		0px 0px 0px rgba(000,000,000,0),
 		0px 0px 0px rgba(255,255,255,0);
 	margin:0 5px;
+	background: #3c3b3c; /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzU1NTU1NSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMzYzNiM2MiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  #555555 0%, #3c3b3c 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#555555), color-stop(100%,#3c3b3c)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #555555 0%,#3c3b3c 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #555555 0%,#3c3b3c 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #555555 0%,#3c3b3c 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #555555 0%,#3c3b3c 100%); /* W3C */
+background: #3c3b3c\9;/* IE8 and below */
 
 }
 
@@ -205,12 +218,23 @@ background: #3c3b3c\9;/* IE8 and below */
 .view-blog .views-field-field-image {width:220px; float:left; margin:0 10px 0 0;}
 .view-blog .views-field-title, .view-blog .views-field-body {width:500px; float:right;}
 
-#contact-button {display:none;}
+.view-contact-blocks header, .view-contact-blocks .field-name-body, .front #contact-reveal, .page-node-3 #contact-front, .page-node-3 #contact-button {display:none; }
+
+#block-views-contact-blocks-block-1 {width:300px; float:left; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; padding:10px 20px; background:#5f6062;}
+#block-views-contact-blocks-block-1 label, #block-views-contact-blocks-block-1 p, #block-views-contact-blocks-block-1 .form-required {color: white;}
+#block-views-contact-blocks-block-1 input {width:300px;}
+#block-views-contact-blocks-block-1 input[type="submit"] {width:100px;}
+#block-block-12 {width:360px; float:right; border: 2px solid #83c030; padding:20px; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px;}
+#block-block-12 p {text-align: center; font-size: 18px;}
+block-block-12 p a.greybutton {margin:20px 0 0 0;}
+
 
 /*video areas*/
-.block-views-video-blocks-block-1 {background: white; margin:20px 20px 80px 20px; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; padding:10px;} 
+.block-views-video-blocks-block-1 {background: white; margin:20px 20px 80px 20px; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; padding:10px; } 
 .block-views-video-blocks-block-1 .views-field-field-video {width:640px; float:left; margin:0 20px 0 0;}
 #block-views-video-blocks-block {height:180px;}
+
+
 
 		
 
