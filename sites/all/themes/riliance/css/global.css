@@ -234,6 +234,62 @@ block-block-12 p a.greybutton {margin:20px 0 0 0;}
 .block-views-video-blocks-block-1 .views-field-field-video {width:640px; float:left; margin:0 20px 0 0;}
 #block-views-video-blocks-block {height:180px;}
 
+/*infographic circle*/
+/*
+ * Main wrapper div
+ */
+div.infographic_rotate_container {
+	position:relative;
+}
+
+/*
+ * Container for the infographic info in the center of the path
+ */
+.infographic_rotate_content {
+  position:absolute; 
+  top:0; 
+  left:0; 
+  display:block; 
+  background:yellow; 
+  text-align:center; 
+  z-index:10;
+}
+
+
+/*
+ * Definition list of infographic
+ */
+dl.infographic_rotate_enable {
+  margin:0; position:relative; 
+  display:block; 
+  z-index:1; 
+  background:red; 
+}
+
+dl.infographic_rotate_enable dt {
+  position:absolute; 
+  display:block; 
+  background:white; 
+  border-radius:10em; 
+  text-indent:-5000px; 
+  width:50px; 
+  height:50px; 
+}      
+dl.infographic_rotate_enable dt.selected {
+  width:80px; 
+  height:80px; 
+  margin-left:-15px; /* this is half the difference, required to fix positioning changes */
+  margin-top:-15px; /* this is half the difference, required to fix positioning changes */
+}
+dl.infographic_rotate_enable dt:hover {
+  background:#D3D3D3; 
+  cursor:pointer; 
+}
+
+dl.infographic_rotate_enable dd {
+  display:none; 
+}      
+
 
 
 		
