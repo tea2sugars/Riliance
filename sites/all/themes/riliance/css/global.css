@@ -240,6 +240,7 @@ block-block-12 p a.greybutton {margin:20px 0 0 0;}
  */
 div.infographic_rotate_container {
 	position:relative;
+	background: url(/sites/all/themes/riliance/images/circle.gif) no-repeat;
 }
 
 /*
