@@ -250,7 +250,7 @@ div.infographic_rotate_container {
   top:0; 
   left:0; 
   display:block; 
-  background:yellow; 
+  background:none; 
   text-align:center; 
   z-index:10;
 }
@@ -263,14 +263,14 @@ dl.infographic_rotate_enable {
   margin:0; position:relative; 
   display:block; 
   z-index:1; 
-  background:red; 
+  background:none; 
 }
 
 dl.infographic_rotate_enable dt {
   position:absolute; 
   display:block; 
-  background:white; 
-  border-radius:10em; 
+  background: #eaeaea;
+  border-radius:10em;
   text-indent:-5000px; 
   width:50px; 
   height:50px; 
