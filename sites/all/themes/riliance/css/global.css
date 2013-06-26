@@ -271,20 +271,17 @@ dl.infographic_rotate_enable {
 dl.infographic_rotate_enable dt {
   position:absolute; 
   display:block; 
-  border-radius:10em;
   text-indent:-5000px; 
-  width:60px; 
+  width:80px; 
   height:60px; 
-  background: white;
-  border: 1px solid grey;
 }     
 
 
 dl.infographic_rotate_enable dt.selected {
   width:80px; 
   height:80px; 
-  margin-left:-15px; /* this is half the difference, required to fix positioning changes */
-  margin-top:-15px; /* this is half the difference, required to fix positioning changes */
+  margin-left:-5px; /* this is half the difference, required to fix positioning changes */
+  margin-top:-5px; /* this is half the difference, required to fix positioning changes */
 }  
 
 dl.infographic_rotate_enable dt:hover {
@@ -296,14 +293,14 @@ dl.infographic_rotate_enable dd {
   display:none; 
 }  
 
-body dl.infographic_rotate_enable dt.icon1 {background-image:url(/sites/all/themes/riliance/images/icons/infocircle/Clock.png);}  
-body dl.infographic_rotate_enable dt.icon2 {background-image:url(/sites/all/themes/riliance/images/icons/infocircle/Eye.png);}  
-body dl.infographic_rotate_enable dt.icon3 {background-image:url(/sites/all/themes/riliance/images/icons/infocircle/Vault.png);}  
-body dl.infographic_rotate_enable dt.icon4 {background-image:url(/sites/all/themes/riliance/images/icons/infocircle/Book.png);}  
-body dl.infographic_rotate_enable dt.icon5 {background-image:url(/sites/all/themes/riliance/images/icons/infocircle/Tick_Box.png);}  
-body dl.infographic_rotate_enable dt.icon6 {background-image:url(/sites/all/themes/riliance/images/icons/infocircle/Laptop.png);}  
-body dl.infographic_rotate_enable dt.icon7 {background-image:url(/sites/all/themes/riliance/images/icons/infocircle/Lock.png);}  
-body dl.infographic_rotate_enable dt.icon8 {background-image:url(/sites/all/themes/riliance/images/icons/infocircle/Cloud.png);}   
+body dl.infographic_rotate_enable dt.icon1 {background:url(/sites/all/themes/riliance/images/icons/infocircle/sprites/book.png);}  
+body dl.infographic_rotate_enable dt.icon2 {background:url(/sites/all/themes/riliance/images/icons/infocircle/sprites/book.png);}  
+body dl.infographic_rotate_enable dt.icon3 {background:url(/sites/all/themes/riliance/images/icons/infocircle/sprites/book.png);}  
+body dl.infographic_rotate_enable dt.icon4 {background:url(/sites/all/themes/riliance/images/icons/infocircle/sprites/book.png);}  
+body dl.infographic_rotate_enable dt.icon5 {background:url(/sites/all/themes/riliance/images/icons/infocircle/sprites/book.png);}  
+body dl.infographic_rotate_enable dt.icon6 {background:url(/sites/all/themes/riliance/images/icons/infocircle/sprites/book.png);}  
+body dl.infographic_rotate_enable dt.icon7 {background:url(/sites/all/themes/riliance/images/icons/infocircle/sprites/book.png);}  
+body dl.infographic_rotate_enable dt.icon8 {background:url(/sites/all/themes/riliance/images/icons/infocircle/sprites/book.png);}   
 
 
 body dl.infographic_rotate_enable dt.icon1.selected, 
@@ -313,7 +310,7 @@ body dl.infographic_rotate_enable dt.icon4.selected,
 body dl.infographic_rotate_enable dt.icon5.selected,
 body dl.infographic_rotate_enable dt.icon6.selected, 
 body dl.infographic_rotate_enable dt.icon7.selected, 
-body dl.infographic_rotate_enable dt.icon8.selected {}
+body dl.infographic_rotate_enable dt.icon8.selected {background:url(/sites/all/themes/riliance/images/icons/infocircle/sprites/book.png) no-repeat 0 -60px; }
 
 
 		
