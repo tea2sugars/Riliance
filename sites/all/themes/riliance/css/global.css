@@ -310,7 +310,7 @@ body dl.infographic_rotate_enable dt.icon4.selected,
 body dl.infographic_rotate_enable dt.icon5.selected,
 body dl.infographic_rotate_enable dt.icon6.selected, 
 body dl.infographic_rotate_enable dt.icon7.selected, 
-body dl.infographic_rotate_enable dt.icon8.selected {background:url(/sites/all/themes/riliance/images/icons/infocircle/sprites/book.png) no-repeat 0 -60px; }
+body dl.infographic_rotate_enable dt.icon8.selected {background-position: 0 -60px; }
 
 
 		
