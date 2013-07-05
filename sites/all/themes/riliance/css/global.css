@@ -303,6 +303,8 @@ body dl.infographic_rotate_enable dt.icon6.selected,
 body dl.infographic_rotate_enable dt.icon7.selected, 
 body dl.infographic_rotate_enable dt.icon8.selected {background-position: 0 -60px; }
 
+.page-node-done .links, .page-node-done .breadcrumb  {display: none;}
+
 
 		
 
