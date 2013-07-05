@@ -1,10 +1,10 @@
 /* This file will hold styles for the mobile version of your website (mobile first). */
 /* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
 
-/*#83c030 green
+/*#80bb2b  green
 #5f6062 grey*/
 body {font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; background: #f6f6f6;}
-h1, h2, h3, h4, h5, h6 {color: #83c030; font-weight: 300; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;}
+h1, h2, h3, h4, h5, h6 {color: #80bb2b; font-weight: 300; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;}
 h1 {line-height: 1.2; font-size: 24px; letter-spacing: 1px;}
 h2 {line-height: 1.2; font-size: 18px; color: black; letter-spacing: 1px;}
 h3 {line-height: 1.2; font-size: 16px; color: black; letter-spacing: 1px; font-style: italic; font-weight: 600; margin:0;}
@@ -21,8 +21,8 @@ h6 {color:black; font-size:12px;}
 p, li, td, label {color: black; line-height: 1.4; font-size: 12px;}
 .sml_text {font-size: 10px;}
 
-a:link, a:visited {color:#83c030; text-decoration: none;}
-a:hover {text-decoration: none;}
+a:link, a:visited {color:#80bb2b; text-decoration: none;}
+a:hover {text-decoration: none; color:#6FA125;}
 
 ::selection {background: #D9FFE0; /* Safari */}
 ::-moz-selection {background: #D9FFE0; /* Firefox */}
@@ -44,7 +44,7 @@ footer #block-block-9 {width:323px; float:right; margin:10px 20px 10px 10px;}
 #region-footer-second {background:#1b1b1d;}
 #block-block-3 a:link, #block-block-3 a:visited {color:#929292; font-size:14px; font-weight: 300; text-decoration: none; letter-spacing: 1px;}
 #block-block-3 a:hover {text-decoration: underline;}
-#block-block-3 {float:left; width:380px; border-left: 2px solid #83c030; padding:30px 0 30px 20px;}
+#block-block-3 {float:left; width:380px; border-left: 2px solid #80bb2b; padding:30px 0 30px 20px;}
 #block-block-3 p {margin: 0;}
 #block-block-4, #block-block-5, #block-block-6, #block-block-7, #block-block-10, #block-block-11 {width:110px; margin:10px 0 10px 20px; float: left; padding-top:15px;}
 #block-block-5, #block-block-6, #block-block-7, #block-block-10, #block-block-11 {padding-top:25px;}
@@ -59,14 +59,14 @@ footer #block-block-9 {width:323px; float:right; margin:10px 20px 10px 10px;}
 #block-views-contact-blocks-block {margin-top:5px;}
 
 /*Navigation*/
-.navigation a:link, .navigation a:visited {color: white; padding:15px 30px; display: block; float:left; font-size:14px; text-decoration: none;}
+.navigation a:link, .navigation a:visited {color: white; padding:15px 40px; display: block; float:left; font-size:14px; text-decoration: none;}
 .navigation a:hover, .navigation a.active {background: black;} 
-.navigation li.last a:link, .navigation li.last a:visited {color:#3ebb29;}
+.navigation li.last a:link, .navigation li.last a:visited {color:#80bb2b;}
 #zone-menu {margin-top:20px;}
 
 /*Blocks*/
 #block-block-2 {float:right; width:400px; text-align: right;}
-.branding-data {float: left; width: 370px;}
+.branding-data {float: left; width: 380px;}
 .logo-img {padding:0; margin:10px 0 0 0;}
 
 #region-footer-first {background: #5f6062; color:white;}
@@ -79,7 +79,7 @@ footer #block-block-9 {width:323px; float:right; margin:10px 20px 10px 10px;}
 #region-sidebar-first p {font-size: 14px; margin:0 0 10px 0; line-height: 1.4; font-weight: 300;}
 #region-sidebar-first h2 {margin-bottom: 20px;}
 #region-sidebar-first a:link,
-#region-sidebar-first a:visited {font-weight: 600; color:#83c030; text-align: right; font-style: italic; text-decoration: none;}
+#region-sidebar-first a:visited {font-weight: 600; color:#80bb2b; text-align: right; font-style: italic; text-decoration: none;}
 #region-sidebar-first a:hover {text-decoration: underline;}
 
 /*Aside Homepage Form*/
@@ -97,7 +97,7 @@ footer #block-block-9 {width:323px; float:right; margin:10px 20px 10px 10px;}
 .view-homepage-features .item-list ul li .views-field-field-icon {width:120px; margin:0 auto 20px auto;}
 
 /*Features Block*/
-.view-features .item-list ul li {width:330px; float:left; margin:0 0 20px 0; border: 1px solid #83c030; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; padding:10px; height:140px;}
+.view-features .item-list ul li {width:330px; float:left; margin:0 0 20px 0; border: 1px solid #80bb2b; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; padding:10px; height:140px;}
 .view-features .item-list ul li.views-row-odd {margin-right:20px;}
 .view-features .views-field-field-icon {width:60px; float:left; margin:0 5px 5px 0;}
 .view-features .views-field-field-icon:after {clear: both;}
@@ -128,7 +128,7 @@ font-weight: 300;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
-	border: 1px solid #3AAD24;
+	border: 1px solid #6FA125;
 	-moz-box-shadow:
 		0px 2px 3px rgba(000,000,000,0.5),
 		inset 0px 0px 0px rgba(255,255,255,0.7);
@@ -142,18 +142,9 @@ font-weight: 300;
 		0px 0px 0px rgba(000,000,000,0),
 		0px 0px 0px rgba(255,255,255,0);
 	margin:0 5px;
-	background: #3ebb29; /* Old browsers */
-	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
-	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzNlYmIyOSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9Ijk5JSIgc3RvcC1jb2xvcj0iIzNhYWQyNCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
-	background: -moz-linear-gradient(top,  #3ebb29 0%, #3aad24 99%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3ebb29), color-stop(99%,#3aad24)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top,  #3ebb29 0%,#3aad24 99%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top,  #3ebb29 0%,#3aad24 99%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top,  #3ebb29 0%,#3aad24 99%); /* IE10+ */
-	background: linear-gradient(to bottom,  #3ebb29 0%,#3aad24 99%); /* W3C */
-	background: #3ebb29\9;}
+	background: #80bb2b;}
 	
-button.greenbutton:hover, a.greenbutton:hover, .greenbutton a:hover, input[type="submit"]:hover {background:#3ebb29;}
+button.greenbutton:hover, a.greenbutton:hover, .greenbutton a:hover, input[type="submit"]:hover {background:#6FA125;}
 
 button.greybutton, a.greybutton:link, a.greybutton:visited {
 	font-weight: 300; 
@@ -224,7 +215,7 @@ background: #3c3b3c\9;/* IE8 and below */
 #block-views-contact-blocks-block-1 label, #block-views-contact-blocks-block-1 p, #block-views-contact-blocks-block-1 .form-required {color: white;}
 #block-views-contact-blocks-block-1 input {width:300px;}
 #block-views-contact-blocks-block-1 input[type="submit"] {width:100px;}
-#block-block-12 {width:360px; float:right; border: 2px solid #83c030; padding:20px; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px;}
+#block-block-12 {width:360px; float:right; border: 2px solid #80bb2b; padding:20px; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px;}
 #block-block-12 p {text-align: center; font-size: 18px;}
 block-block-12 p a.greybutton {margin:20px 0 0 0;}
 
