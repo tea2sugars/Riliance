@@ -291,7 +291,9 @@ body dl.infographic_rotate_enable dt.icon4 {background:url(/sites/all/themes/ril
 body dl.infographic_rotate_enable dt.icon5 {background:url(/sites/all/themes/riliance/images/icons/infocircle/sprites/Tick_Box.png) no-repeat;}  
 body dl.infographic_rotate_enable dt.icon6 {background:url(/sites/all/themes/riliance/images/icons/infocircle/sprites/Laptop.png) no-repeat;}  
 body dl.infographic_rotate_enable dt.icon7 {background:url(/sites/all/themes/riliance/images/icons/infocircle/sprites/Lock.png) no-repeat;}  
-body dl.infographic_rotate_enable dt.icon8 {background:url(/sites/all/themes/riliance/images/icons/infocircle/sprites/Cloud.png) no-repeat;}   
+body dl.infographic_rotate_enable dt.icon8 {background:url(/sites/all/themes/riliance/images/icons/infocircle/sprites/Cloud.png) no-repeat;}  
+body dl.infographic_rotate_enable dt.icon9 {background:url(/sites/all/themes/riliance/images/icons/infocircle/sprites/Tick.png) no-repeat;}   
+ 
 
 
 body dl.infographic_rotate_enable dt.icon1.selected, 
@@ -301,7 +303,10 @@ body dl.infographic_rotate_enable dt.icon4.selected,
 body dl.infographic_rotate_enable dt.icon5.selected,
 body dl.infographic_rotate_enable dt.icon6.selected, 
 body dl.infographic_rotate_enable dt.icon7.selected, 
-body dl.infographic_rotate_enable dt.icon8.selected {background-position: 0 -60px; }
+body dl.infographic_rotate_enable dt.icon8.selected,
+body dl.infographic_rotate_enable dt.icon9.selected {background-position: 0 -60px; }
+
+#block-block-13 {width:500px; margin:0 auto;}
 
 .page-node-done .links, .page-node-done .breadcrumb  {display: none;}
 
