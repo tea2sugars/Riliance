@@ -54,9 +54,10 @@ footer #block-block-9 {width:323px; float:right; margin:10px 20px 10px 10px;}
 
 #block-block-4 {padding-top: 0;}
 #block-block-4 h4 {margin:0; color: white;}
-#block-block-8, #block-views-contact-blocks-block {width:120px; float:right;}
+#block-block-8, #block-views-contact-blocks-block {min-width:160px; float:right;}
+#block-block-8 {margin-top:2px;}
 #block-block-8 p {margin:0;}
-#block-views-contact-blocks-block {margin-top:5px;}
+
 
 /*Navigation*/
 .navigation a:link, .navigation a:visited {color: white; padding:15px 40px; display: block; float:left; font-size:14px; text-decoration: none;}
@@ -151,7 +152,7 @@ button.greybutton, a.greybutton:link, a.greybutton:visited {
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;	
 	font-size: 1em;
 	color: #ffffff;
-	padding: 7px 20px;
+	padding: 6px 20px;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
