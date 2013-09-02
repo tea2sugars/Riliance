@@ -54,9 +54,12 @@ footer #block-block-9 {width:323px; float:right; margin:10px 20px 10px 10px;}
 
 #block-block-4 {padding-top: 0;}
 #block-block-4 h4 {margin:0; color: white;}
+
 #block-block-8, #block-views-contact-blocks-block {min-width:160px; float:right;}
 #block-block-8 {margin-top:2px;}
-#block-block-8 p {margin:0;}
+
+/*#block-block-8, #block-views-contact-blocks-block {width:160px; float:right;}
+#block-block-8 p {margin:0;}*/
 
 
 /*Navigation*/
@@ -77,7 +80,7 @@ footer #block-block-9 {width:323px; float:right; margin:10px 20px 10px 10px;}
 #region-sidebar-first {background: #5f6062; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px;}
 #region-sidebar-first .region-inner {padding:20px;}
 #region-sidebar-first p, #region-sidebar-first h2, #region-sidebar-first label {color: #fff;}
-#region-sidebar-first p {font-size: 14px; margin:0 0 10px 0; line-height: 1.4; font-weight: 300;}
+#region-sidebar-first p {font-size: 15px; margin:0 0 10px 0; line-height: 1.4; font-weight: 300;}
 #region-sidebar-first h2 {margin-bottom: 20px;}
 #region-sidebar-first a:link,
 #region-sidebar-first a:visited {font-weight: 600; color:#80bb2b; text-align: right; font-style: italic; text-decoration: none;}
