@@ -24,15 +24,18 @@ function _easy_breadcrumb_block() {
   // Conditionally include the front page segment in the breadcrumb.
   if ($include_front_page_segment) {
     $front_text = variable_get(EasyBreadcrumbConstants::DB_VAR_HOME_SEGMENT_TITLE);
-    if (isset($front_text) && function_exists('i18n_string')) {
-      $front_text = i18n_string('node', $front_text);
-    } else {
-      $front_text = t('Home');
-    }
+		if (isset($front_text)) {
+			if (function_exists('i18n_string')) {
+				$front_text = i18n_string('node', $front_text);
+			}
+		}
+		else {
+			$front_text = t('Home');
+		}
     // Marks the front--segment with an identifier class (useful for CSS).
     $segments_classes[1] = 'easy-breadcrumb_segment-front';
     // Adds a segment for the front page.
-    $breadcrumb[] = l($front_text, NULL, array('attributes' => array('class' => $segments_classes)));
+		$breadcrumb[] = array('content' => $front_text, 'class' => $segments_classes, 'url' => '');
   }
 
   // There won't be more segments if visiting the front page, the don't waste
@@ -80,8 +83,12 @@ function _easy_breadcrumb_block() {
       $segment_url = implode('/', $segment_url_arr);
 
       // If this segment is configured to be excluded.
-      if (isset($excluded_paths_arr[$segment_url])) {
-        continue;
+      foreach ($excluded_paths_arr as $excluded_path) {
+        $pattern = '@^' . $excluded_path . '$@';
+        $result = preg_match($pattern, $segment_url);
+        if ($result) {
+          continue 2;
+        }
       }
 
       $segments_classes[1] = 'easy-breadcrumb_segment-' . $idx_1;
@@ -102,14 +109,10 @@ function _easy_breadcrumb_block() {
       // otherwise (if configured for doing so).
       if ($segment_valid_path) {
         // Adds the segment to the breadcrumb.
-        $breadcrumb[] = l($segment_text, $segment_url, array(
-          'attributes' => array('class' => $segments_classes),
-          )
-        );
+				$breadcrumb[] = array('content' => $segment_text, 'class' => $segments_classes, 'url' => $segment_url);
       }
       elseif ($include_invalid_paths) {
-        $classes = implode(' ', $segments_classes);
-        $breadcrumb[] = '<span class="' . $classes . '">' . htmlspecialchars($segment_text) . '</span>';
+				$breadcrumb[] = array('content' => $segment_text, 'class' => $segments_classes);
       }
     }
 
@@ -136,11 +139,10 @@ function _easy_breadcrumb_block() {
       $title_segment_as_link = variable_get(EasyBreadcrumbConstants::DB_VAR_TITLE_SEGMENT_AS_LINK, FALSE);
       // If the page's title will be a link or just a text.
       if ($title_segment_as_link) {
-        $breadcrumb[] = l($page_title, $alias, array('attributes' => array('class' => $segments_classes)));
+				$breadcrumb[] = array('content' => $page_title, 'class' => $segments_classes, 'url' => $alias);
       }
       else {
-        $classes = implode(' ', $segments_classes);
-        $breadcrumb[] = '<span class="' . $classes . '">' . $page_title . '</span>';
+				$breadcrumb[] = array('content' => $page_title, 'class' => $segments_classes);
       }
     }
   }
@@ -181,10 +183,10 @@ function _easy_breadcrumb_normalize_url_segment_text_url($segment_normal_path,
 $segment_valid_path, $segment_text, $uppercase_mode = 'ucwords', $capitalizator_ignored_words = array()) {
 
   // if path is valid then just try to infer it from the node's title (if available).
-  if ($segment_valid_path) {
-    $node = menu_get_object('node', 1, $segment_normal_path);
-    if(is_object($node) && property_exists($node, 'title')) {
-      return $node->title;
+  if ($segment_valid_path  && variable_get(EasyBreadcrumbConstants::DB_VAR_TITLE_FROM_PAGE_WHEN_AVAILABLE)) {
+    $item = menu_get_item($segment_normal_path);
+    if(isset($item['title'])) {
+      return $item['title'];
     }
   }
 
