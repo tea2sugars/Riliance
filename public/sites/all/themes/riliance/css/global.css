@@ -23,6 +23,12 @@ p, li, td, label {color: black; line-height: 1.4; font-size: 12px;}
 
 a:link, a:visited {color:#80bb2b; text-decoration: none;}
 a:hover {text-decoration: none; color:#6FA125;}
+a.red-link:link, a.red-link:visited {color:red; text-decoration: underline;}
+a.red-link:hover {color: #9a0c0c;}
+
+a.black-link:link {color:black; text-decoration: underline;}
+a.black-link:hover, a.black-link:visited {color: #9a0c0c;}
+
 
 ::selection {background: #D9FFE0; /* Safari */}
 ::-moz-selection {background: #D9FFE0; /* Firefox */}
