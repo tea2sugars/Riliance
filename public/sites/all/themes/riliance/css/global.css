@@ -207,7 +207,7 @@ background: #3c3b3c\9;/* IE8 and below */
 		}
 		
 /*Colorbox*/
-#cboxContent header {display: none;}
+#cboxContent header, #cboxContent #contact-front {display: none;}
 #cboxContent #webform-component-opt-in {margin-top:0px;}
 #cboxContent .field-name-field-video {width:640px; float:left; margin: 0 20px 0 0;}
 
@@ -232,7 +232,7 @@ block-block-12 p a.greybutton {margin:20px 0 0 0;}
 
 /*video areas*/
 .block-views-video-blocks-block-1 {background: white; margin:20px 20px 80px 20px; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; padding:10px; } 
-.block-views-video-blocks-block-1 .views-field-field-video {width:640px; float:left; margin:0 20px 0 0;}
+.block-views-video-blocks-block-1 .views-field-field-video {width:640px; float:left; margin:20px 20px 0 0;}
 #block-views-video-blocks-block {height:180px;}
 
 /*infographic circle*/
