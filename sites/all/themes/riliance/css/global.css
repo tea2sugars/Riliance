@@ -1,0 +1,326 @@
+/* This file will hold styles for the mobile version of your website (mobile first). */
+/* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
+
+/*#80bb2b  green
+#5f6062 grey*/
+body {font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; background: #fff;}
+h1, h2, h3, h4, h5, h6 {color: #80bb2b; font-weight: 300; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;}
+h1 {line-height: 1.2; font-size: 24px; letter-spacing: 1px;}
+h2 {line-height: 1.2; font-size: 18px; color: black; letter-spacing: 1px;}
+h3 {line-height: 1.2; font-size: 16px; color: black; letter-spacing: 1px; font-style: italic; font-weight: 600; margin:0;}
+.marker, .form-required {color: #000;}
+aside .marker, aside .form-required {color:#fff;}
+
+/*Features H3*/
+.page-node-12 h3 {font-style: normal; width:260px; float:right; height:50px; margin:10px 0 0 0;}
+.page-node-12 h3:after {clear:both;}
+/*End of Features*/
+
+h4 {font-size: 16px; margin-bottom: 5px;}
+h6 {color:black; font-size:12px;}
+p, li, td, label {color: black; line-height: 1.4; font-size: 12px;}
+.sml_text {font-size: 10px;}
+
+a:link, a:visited {color:#80bb2b; text-decoration: none;}
+a:hover {text-decoration: none; color:#6FA125;}
+a.red-link:link, a.red-link:visited {color:red; text-decoration: underline;}
+a.red-link:hover {color: #9a0c0c;}
+
+a.black-link:link {color:black; text-decoration: underline;}
+a.black-link:hover, a.black-link:visited {color: #9a0c0c;}
+
+
+::selection {background: #D9FFE0; /* Safari */}
+::-moz-selection {background: #D9FFE0; /* Firefox */}
+
+/*Basic Page elements*/
+header {padding-top:20px;}
+#page {background: #fff; border: 0px 1px solid #eaeaea;}
+#zone-content {padding:20px 0 40px 0;}
+
+/*Header*/
+.header_phone {color:#929292; font-size:22px; font-weight: 200; letter-spacing: 1px;}
+
+/*footer*/
+footer p, footer h3, footer a:link, footer a:visited {color:white; text-decoration: none;}
+footer p {margin-bottom: 5px; font-size: 11px; line-height: 1.6;}
+.terms {color:#cbcbcb; font-size:11px; text-align: center; margin:10px 0;}
+footer #block-block-9 {width:323px; float:right; margin:10px 20px 10px 10px;}
+#region-footer-first {background:#29292b;}
+#region-footer-second {background:#1b1b1d;}
+#block-block-3 a:link, #block-block-3 a:visited {color:#929292; font-size:14px; font-weight: 300; text-decoration: none; letter-spacing: 1px;}
+#block-block-3 a:hover {text-decoration: underline;}
+#block-block-3 {float:left; width:380px; border-left: 2px solid #80bb2b; padding:30px 0 30px 20px;}
+#block-block-3 p {margin: 0;}
+#block-block-4, #block-block-5, #block-block-6, #block-block-7, #block-block-10, #block-block-11 {width:110px; margin:10px 0 10px 20px; float: left; padding-top:15px;}
+#block-block-5, #block-block-6, #block-block-7, #block-block-10, #block-block-11 {padding-top:25px;}
+#block-block-5 {width:60px;}
+#block-block-7, #block-block-10, #block-block-11 {width:120px;}
+#block-block-11 {width:130px;}
+
+#block-block-4 {padding-top: 0;}
+#block-block-4 h4 {margin:0; color: white;}
+
+#block-block-8, #block-views-contact-blocks-block {min-width:160px; float:right;}
+#block-block-8 {margin-top:2px;}
+
+/*#block-block-8, #block-views-contact-blocks-block {width:160px; float:right;}
+#block-block-8 p {margin:0;}*/
+
+
+/*Navigation*/
+.navigation a:link, .navigation a:visited {color: white; padding:15px 40px; display: block; float:left; font-size:14px; text-decoration: none;}
+.navigation a:hover, .navigation a.active {background: black;} 
+.navigation li.last a:link, .navigation li.last a:visited {color:#80bb2b;}
+#zone-menu {margin-top:20px;}
+
+/*Blocks*/
+#block-block-2 {float:right; width:400px; text-align: right;}
+.branding-data {float: left; width: 380px;}
+.logo-img {padding:0; margin:10px 0 0 0;}
+
+#region-footer-first {background: #5f6062; color:white;}
+#region-postscript-first {background: url(../images/dot_texture.gif) top #888888;}
+
+/*Aside*/
+#region-sidebar-first {background: #5f6062; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px;}
+#region-sidebar-first .region-inner {padding:20px;}
+#region-sidebar-first p, #region-sidebar-first h2, #region-sidebar-first label {color: #fff;}
+#region-sidebar-first p {font-size: 15px; margin:0 0 10px 0; line-height: 1.4; font-weight: 300;}
+#region-sidebar-first h2 {margin-bottom: 20px;}
+#region-sidebar-first a:link,
+#region-sidebar-first a:visited {font-weight: 600; color:#80bb2b; text-align: right; font-style: italic; text-decoration: none;}
+#region-sidebar-first a:hover {text-decoration: underline;}
+
+/*Aside Homepage Form*/
+#region-sidebar-first input {width: 100%; border: none; -moz-border-radius: 2px; -webkit-border-radius: 2px; border-radius: 2px;}
+#region-sidebar-first label {font-size: 12px;}
+#region-sidebar-first input[type="submit"] {font-size: 12px; width:150px; margin:10px 0 0 0;}
+#region-sidebar-first #node-webform-4 header {display: none;}
+
+/*Homepage Block*/
+.view-homepage-features .item-list ul li {width:165px; float:left; margin:0;}
+}
+.view-homepage-features .item-list ul li.views-row-2 {margin:0 20px 0 40px;}
+.view-homepage-features .item-list ul li.views-row-3 {margin:0 40px 0 20px;}
+.view-homepage-features .item-list ul li p, .view-homepage-features .item-list ul li h4 {text-align: center;}
+.view-homepage-features .item-list ul li .views-field-field-icon {width:120px; margin:0 auto 20px auto;}
+
+/*Features Block*/
+.view-features .item-list ul li {width:330px; float:left; margin:0 0 20px 0; border: 1px solid #80bb2b; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; padding:10px; height:140px;}
+.view-features .item-list ul li.views-row-odd {margin-right:20px;}
+.view-features .views-field-field-icon {width:60px; float:left; margin:0 5px 5px 0;}
+.view-features .views-field-field-icon:after {clear: both;}
+.view-features .views-field-body {min-height:80px; float:left;}
+
+/*Who uses Riliance page view*/
+#region-content .view-who-uses-riliance .views-row {margin:0; width:360px; float:left; height:300px;}
+#region-content .view-who-uses-riliance .views-row-even {margin-left:20px;}
+#region-content .view-who-uses-riliance .views-field-field-logo {float:left; width:100px; margin:0 10px 0 0;}
+#region-content .view-who-uses-riliance h3, #region-content .view-who-uses-riliance h6, #region-content blockquote {width:250px; float:right;}
+
+
+/*Who uses Riliance page block*/
+#region-sidebar-first .views-field-title {font-weight: 500; font-style: italic; color: white;}
+#region-sidebar-first .view-footer p {text-align: right; margin:10px 0;}
+#region-sidebar-first blockquote {margin:0;}
+#region-sidebar-first blockquote p {font-family: times; font-style: italic; font-size: 16px;}
+
+
+/*buttons*/
+button.greenbutton, a.greenbutton:link, a.greenbutton:visited, .greenbutton a:link, .greenbutton a:visited, input[type="submit"] {
+text-decoration: none;
+font-weight: 300; 
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;	
+	font-size: 1em;
+	color: #ffffff;
+	padding: 5px 20px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px solid #6FA125;
+	-moz-box-shadow:
+		0px 2px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 0px rgba(255,255,255,0.7);
+	-webkit-box-shadow:
+		0px 2px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 0px rgba(255,255,255,0.7);
+	box-shadow:
+		0px 2px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 0px rgba(255,255,255,0.7);
+	text-shadow:
+		0px 0px 0px rgba(000,000,000,0),
+		0px 0px 0px rgba(255,255,255,0);
+	margin:0 5px;
+	background: #80bb2b;}
+	
+button.greenbutton:hover, a.greenbutton:hover, .greenbutton a:hover, input[type="submit"]:hover {background:#6FA125;}
+
+button.greybutton, a.greybutton:link, a.greybutton:visited {
+	font-weight: 300; 
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;	
+	font-size: 1em;
+	color: #ffffff;
+	padding: 6px 20px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px solid #000000;
+	-moz-box-shadow:
+		0px 2px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 0px rgba(255,255,255,0.7);
+	-webkit-box-shadow:
+		0px 2px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 0px rgba(255,255,255,0.7);
+	box-shadow:
+		0px 2px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 0px rgba(255,255,255,0.7);
+	text-shadow:
+		0px 0px 0px rgba(000,000,000,0),
+		0px 0px 0px rgba(255,255,255,0);
+	margin:0 5px;
+	background: #3c3b3c; /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzU1NTU1NSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMzYzNiM2MiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  #555555 0%, #3c3b3c 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#555555), color-stop(100%,#3c3b3c)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #555555 0%,#3c3b3c 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #555555 0%,#3c3b3c 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #555555 0%,#3c3b3c 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #555555 0%,#3c3b3c 100%); /* W3C */
+background: #3c3b3c\9;/* IE8 and below */
+
+}
+
+button.greybutton:hover, a.greybutton:hover {background: #3c3b3c;}
+
+#region-menu, button.greybutton  {background: #3c3b3c; /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzU1NTU1NSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMzYzNiM2MiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  #555555 0%, #3c3b3c 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#555555), color-stop(100%,#3c3b3c)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #555555 0%,#3c3b3c 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #555555 0%,#3c3b3c 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #555555 0%,#3c3b3c 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #555555 0%,#3c3b3c 100%); /* W3C */
+background: #3c3b3c\9;/* IE8 and below */
+		}
+		
+/*Colorbox*/
+#cboxContent header, #cboxContent #contact-front {display: none;}
+#cboxContent #webform-component-opt-in {margin-top:0px;}
+#cboxContent .field-name-field-video {width:640px; float:left; margin: 0 20px 0 0;}
+
+/*Blog*/
+.view-blog h2 {font-size: 16px; margin:0 0 5px 0;}
+.view-blog h2 a:link, .view-blog h2 a:visited {color: black; text-decoration: none;}
+.view-blog h2 a:hover {text-decoration: underline;}
+.view-blog li.views-row  {margin:0 0 10px 0;}
+.view-blog .views-field-field-image {width:220px; float:left; margin:0 10px 0 0;}
+.view-blog .views-field-title, .view-blog .views-field-body {width:500px; float:right;}
+
+.view-contact-blocks header, .view-contact-blocks .field-name-body, .front #contact-reveal, .page-node-3 #contact-front, .page-node-3 #contact-button {display:none; }
+
+#block-views-contact-blocks-block-1 {width:300px; float:left; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; padding:10px 20px; background:#5f6062;}
+#block-views-contact-blocks-block-1 label, #block-views-contact-blocks-block-1 p, #block-views-contact-blocks-block-1 .form-required {color: white;}
+#block-views-contact-blocks-block-1 input {width:300px;}
+#block-views-contact-blocks-block-1 input[type="submit"] {width:100px;}
+#block-block-12 {width:360px; float:right; border: 2px solid #80bb2b; padding:20px; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px;}
+#block-block-12 p {text-align: center; font-size: 18px;}
+block-block-12 p a.greybutton {margin:20px 0 0 0;}
+
+
+/*video areas*/
+.block-views-video-blocks-block-1 {background: white; margin:20px 20px 80px 20px; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; padding:10px; } 
+.block-views-video-blocks-block-1 .views-field-field-video {width:640px; float:left; margin:20px 20px 0 0;}
+#block-views-video-blocks-block {height:180px;}
+
+/*infographic circle*/
+/*
+ * Main wrapper div
+ */
+div.infographic_rotate_container {
+	position:relative;
+	background: url(/sites/all/themes/riliance/images/circle.gif) no-repeat;
+}
+
+/*
+ * Container for the infographic info in the center of the path
+ */
+.infographic_rotate_content {
+  position:absolute; 
+  top:40px; 
+  left:0; 
+  display:block; 
+  background:none; 
+  text-align:left; 
+  z-index:10;
+}
+
+
+/*
+ * Definition list of infographic
+ */
+dl.infographic_rotate_enable {
+  margin:0; position:relative; 
+  display:block; 
+  z-index:1; 
+  background:none; 
+}
+
+
+dl.infographic_rotate_enable dt {
+  position:absolute; 
+  display:block; 
+  text-indent:-5000px; 
+  width:80px; 
+  height:60px; 
+}     
+
+
+dl.infographic_rotate_enable dt.selected {
+  width:80px; 
+  height:80px; 
+  margin-left:-5px; /* this is half the difference, required to fix positioning changes */
+  margin-top:-5px; /* this is half the difference, required to fix positioning changes */
+}  
+
+dl.infographic_rotate_enable dt:hover {
+  
+  cursor:pointer; 
+}
+
+dl.infographic_rotate_enable dd, .infographic_detail_close {
+  display:none; 
+}  
+
+body dl.infographic_rotate_enable dt.icon1 {background:url(/sites/all/themes/riliance/images/icons/infocircle/sprites/Clock.png) no-repeat;}  
+body dl.infographic_rotate_enable dt.icon2 {background:url(/sites/all/themes/riliance/images/icons/infocircle/sprites/Eye.png) no-repeat;}  
+body dl.infographic_rotate_enable dt.icon3 {background:url(/sites/all/themes/riliance/images/icons/infocircle/sprites/Vault.png) no-repeat;}  
+body dl.infographic_rotate_enable dt.icon4 {background:url(/sites/all/themes/riliance/images/icons/infocircle/sprites/Book.png) no-repeat;}  
+body dl.infographic_rotate_enable dt.icon5 {background:url(/sites/all/themes/riliance/images/icons/infocircle/sprites/Tick_Box.png) no-repeat;}  
+body dl.infographic_rotate_enable dt.icon6 {background:url(/sites/all/themes/riliance/images/icons/infocircle/sprites/Laptop.png) no-repeat;}  
+body dl.infographic_rotate_enable dt.icon7 {background:url(/sites/all/themes/riliance/images/icons/infocircle/sprites/Lock.png) no-repeat;}  
+body dl.infographic_rotate_enable dt.icon8 {background:url(/sites/all/themes/riliance/images/icons/infocircle/sprites/Cloud.png) no-repeat;}  
+body dl.infographic_rotate_enable dt.icon9 {background:url(/sites/all/themes/riliance/images/icons/infocircle/sprites/Tick.png) no-repeat;}   
+ 
+
+
+body dl.infographic_rotate_enable dt.icon1.selected, 
+body dl.infographic_rotate_enable dt.icon2.selected,
+body dl.infographic_rotate_enable dt.icon3.selected,
+body dl.infographic_rotate_enable dt.icon4.selected,
+body dl.infographic_rotate_enable dt.icon5.selected,
+body dl.infographic_rotate_enable dt.icon6.selected, 
+body dl.infographic_rotate_enable dt.icon7.selected, 
+body dl.infographic_rotate_enable dt.icon8.selected,
+body dl.infographic_rotate_enable dt.icon9.selected {background-position: 0 -60px; }
+
+#block-block-13 {width:500px; margin:0 auto;}
+
+.page-node-done .links, .page-node-done .breadcrumb  {display: none;}
+
+
+		
+
+
